@@ -1,4 +1,4 @@
-FROM node:7.4.0-slim
+FROM node:6.9.4-slim
 RUN apt-get update && apt-get -y install --no-install-recommends git ca-certificates nginx && apt-get clean
 RUN git clone https://github.com/StackStorm/st2web /opt/st2web
 WORKDIR /opt/st2web
