@@ -6,7 +6,7 @@ RUN npm install -g bower
 RUN npm install -g gulp
 RUN npm install
 RUN bower install --allow-root
-RUN gulp serve
+RUN gulp production
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 RUN echo "error_log stderr;" >> /etc/nginx/nginx.conf
 RUN rm /etc/nginx/sites-enabled/default
