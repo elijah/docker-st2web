@@ -3,8 +3,8 @@ angular.module('main')
   .constant('st2Config', {
 
     hosts: [{
-      name: 'docker-compose',
-      url: '//192.168.99.100:9101',
+      name: 'docker',
+      url: '//192.168.90.5:9101',
       auth: true
     }]
 
