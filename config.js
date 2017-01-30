@@ -4,7 +4,7 @@ angular.module('main')
 
     hosts: [{
       name: 'docker',
-      url: '//192.168.90.5:9101',
+      url: 'http://192.168.90.5:9101',
       auth: true
     }]
 
